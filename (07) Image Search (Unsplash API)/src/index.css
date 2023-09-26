@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  direction: rtl;
+  font-family: "vazir" !important;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 300px;
+  box-shadow: 0 0 10px rgba(117, 117, 117, .3);
+}
+
+.header input {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header button {
+  width: 150px;
+  background: crimson;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 25%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
